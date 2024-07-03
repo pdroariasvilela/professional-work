@@ -9,11 +9,18 @@ export default {
       fontFamily: {
         'inter': ['Inter', 'sans-serif'],
       },
+      fontWeight: {
+        normal: 400,
+        bold: 800,
+      },
       colors:{
-        primary : "#512BD9", //azul
+        primary : "#464acc", //azul
+        secondary: "#292931", // available
+        hover : "#FFF5CE"
       },
       fontSize: {
         'custom-88': '88px',
+        'custom-48': '48px',
       },
     },
   },
