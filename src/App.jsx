@@ -5,15 +5,15 @@ import NavBar from "./Components/navBar";
 import ButtonPrimay from "./Components/ButtonPrimay";
 import { information } from "./config";
 import SectionIcons from "./Components/SectionIcons";
+import CardsProyect from "./Components/CardsProyect";
 
 function App() {
   return (
     <>
-      <div className="bg-black h-screen relative">
-        <div className="w-[90%] m-auto relative z-10">
+      <div className="bg-black min-h-screen relative">
+        <div className="w-[90%] m-auto relative z-10 ">
           <NavBar />
-          <div className="flex flex-col w-full justify-evenly px-4 my-4">
-
+          <div className="flex flex-col w-full justify-evenly px-4 my-4 space-y-8 ">
             <div className="bg-secondary w-[250px] items-center justify-center inline-flex gap-5 px-5 py-1 rounded-2xl">
               <div className="h-3 w-3 bg-green-500 rounded-full"></div>
               <p className="text-white">Available for new project</p>
@@ -24,19 +24,18 @@ function App() {
                 Frontend & Mobile Developer
               </h1>
             </div>
-            {
-              information.map((info, index)=>
+            {information.map((info, index) => (
               <p className="text-white font-inter text-base text-start my-5" key={index}>
                 {info.jobs.descriptionEnglish}
               </p>
-              )
-            }
+            ))}
             <ButtonPrimay>Contact Me</ButtonPrimay>
 
-            <SectionIcons/>
+            <SectionIcons />
+            <CardsProyect />
           </div>
         </div>
-        <img src={Mask} className="absolute inset-0 m-auto z-0" alt="" />
+        <img src={Mask} className="absolute inset-0 m-auto z-0 bottom-auto mt-[200px]" alt="" />
       </div>
     </>
   );
