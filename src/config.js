@@ -41,5 +41,15 @@ export const information = [{
             image: YachAI,
             link: "https://github.com/pdroariasvilela/Proveedy-Challenge-Frontend-PedroAriasVilela"
         },
+    ] ,
+    typeJobs:[
+        {
+            title : "Web Development",
+            info:"I am available for new projects and offer comprehensive web development services, both in the frontend and backend. With expertise in the latest technologies and the most widely used frameworks, I ensure that your web application is modern, efficient, and scalable.",
+        },
+        {
+            title : "Mobile Development",
+            info:"I am available for new projects and offer comprehensive mobile development services, both for iOS and Android. With expertise in the latest technologies and the most widely used frameworks, I guarantee that your mobile application will be modern, efficient, and highly functional."
+        }
     ]
 }];

@@ -16,7 +16,8 @@ export default {
       colors:{
         primary : "#464acc", //azul
         secondary: "#292931", // available
-        hover : "#FFF5CE"
+        hover : "#FFF5CE",
+        primary_yellow : "#FCF7D9"
       },
       fontSize: {
         'custom-88': '88px',
