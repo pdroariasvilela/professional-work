@@ -16,32 +16,32 @@ export const information = [{
         descriptionSpanish: "Hola, soy Pedro Arias, desarrollador web y móvil con React y React Native. Con 6 meses de experiencia, he creado sitios web responsivos y aplicaciones móviles. ¡Colaboremos para crear algo increíble!",
         descriptionEnglish: "Hi, I'm Pedro Arias, a React web and mobile developer with 6 months of experience. I've built responsive websites and mobile apps. Let's create something amazing together!"
     },
-    projects: [
+    projects:[
         {
-            title: "Get that Home",
-            description: "Get that home es una página web inspirada en Airbnb , con autenticaciónde usuario , filtros , y consumo de API.",
-            image: GTHome,
-            link : "https://github.com/pdroariasvilela/get-that-home-frontend-team2-web"
+          title: "Get that Home",
+          description: "Get that home is a website inspired by Airbnb, featuring user authentication, filters, and API consumption.",
+          image: GTHome,
+          link: "https://github.com/pdroariasvilela/get-that-home-frontend-team2-web"
         },
         {
-            title : "Tienda OpenCart - Aplicación web para móviles",
-            description: "Tienda OpenCart es una plataforma web de comercio electrónico diseñada para ofrecer una experiencia de compra en línea excepcional.",
-            image : Opencart,
-            link: 'https://github.com/pdroariasvilela/Tienda-OpenCart'
+          title: "Tienda OpenCart - Mobile Web Application",
+          description: "Tienda OpenCart is an e-commerce web platform designed to offer an exceptional online shopping experience.",
+          image: Opencart,
+          link: 'https://github.com/pdroariasvilela/Tienda-OpenCart'
         },
         {
-            title: "Future IMC iOS Mobile",
-            description: "Esta aplicación permite a los usuarios ingresar su peso y altura, luego calcula y muestra su IMC junto con una categoría correspondiente (por ejemplo, Bajo peso, Peso normal, Sobrepeso, Obesidad).",
-            image: CardIMC,
-            link: "https://github.com/pdroariasvilela/IMC-Calculator-iOS"
+          title: "Future IMC iOS Mobile",
+          description: "This application allows users to enter their weight and height, then calculates and displays their BMI along with a corresponding category (e.g., Underweight, Normal weight, Overweight, Obesity).",
+          image: CardIMC,
+          link: "https://github.com/pdroariasvilela/IMC-Calculator-iOS"
         },
         {
-            title: "YachAI Lading page",
-            description: "App iOS 18",
-            image: YachAI,
-            link: "https://github.com/pdroariasvilela/Proveedy-Challenge-Frontend-PedroAriasVilela"
+          title: "YachAI Landing page",
+          description: "Website created to advertise an AI that will help both students and teachers to create and solve tasks. Teachers can create assignments with questions related to the topic they are teaching, and students can answer these questions.",
+          image: YachAI,
+          link: "https://github.com/pdroariasvilela/Proveedy-Challenge-Frontend-PedroAriasVilela"
         },
-    ] ,
+      ],
     typeJobs:[
         {
             title : "Web Development",

@@ -1,10 +1,12 @@
 import { useState } from 'react';
-import Logo from "../img/LGOPEDROSINFONDO.png";
+import Logo from "../img/avatar.jpg";
 import ButtonPrimay from "./ButtonPrimay";
 import { CloseOutlined, MenuOutlined } from '@ant-design/icons';
 
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=pdroariasvilela@gmail.com&su=[Escribe aquí el asunto 😬]&body=[Escribe aquí tu mensaje 😉]!`;
+
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -14,7 +16,7 @@ const NavBar = () => {
     <div className="w-full bg-black flex items-center justify-center fixed top-0 left-0 z-50 shadow-md shadow-slate-900">
       <div className="w-[90%] h-16 flex justify-between items-center px-4">
         <div className="h-12 w-12">
-          <img src={Logo} alt="Logo" className="" />
+          <img src={Logo} alt="Logo" className="rounded-full border-[3px] border-green-500 cursor-pointer hover:shadow-2xl hover:shadow-green-500" />
         </div>
 
         <div className="hidden md:flex text-white gap-4 font-semibold items-center">
@@ -27,7 +29,7 @@ const NavBar = () => {
           <button>Blog</button>
         </div>
         <div className="hidden md:block">
-          <ButtonPrimay>Contact Me 👋</ButtonPrimay>
+          <ButtonPrimay Link={gmailUrl}>Contact Me 👋</ButtonPrimay>
         </div>
 
         <div className="block md:hidden absolute right-4">
@@ -45,7 +47,7 @@ const NavBar = () => {
           <button className="py-2">About me</button>
           <button className="py-2">Projects</button>
           <button className="py-2">Blog</button>
-          <ButtonPrimay>Contact Me 👋</ButtonPrimay>
+          <ButtonPrimay Link={gmailUrl}>Contact Me 👋</ButtonPrimay>
         </div>
       )}
     </div>
