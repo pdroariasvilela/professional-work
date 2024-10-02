@@ -15,12 +15,12 @@ const CardsProyect = () => {
   }, []);
 
   return (
-    <div className="w-full flex flex-col items-center justify-center bg-black my-6 px-4 md:px-8 lg:px-16 lg:mt-[150px] md:mt-[150px]">
+    <div className="w-full flex flex-col items-center justify-center bg-black my-6 px-4 md:px-8 lg:px-16 lg:mt-[200px] lg:mb-[100px] md:mt-[150px] lg:relative lg:left-[30px]">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
         {projects.map((project, index) => (
           <div 
             key={index} 
-            className="flex flex-col items-center justify-center my-5 text-start"
+            className="flex flex-col items-center justify-between my-5 text-start h-full border border-gray-700 rounded-2xl p-4"
             data-aos="fade-down"
             data-aos-easing="linear"
             data-aos-duration="1500"
